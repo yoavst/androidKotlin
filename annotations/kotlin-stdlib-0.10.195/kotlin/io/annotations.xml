@@ -1,0 +1,743 @@
+<root>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e long copyTo$default(java.io.InputStream, java.io.OutputStream, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.io.File getDirectory(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 byte[] readBytes(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.Reader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.net.URL, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 void recurse(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void recurse(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage kotlin.Stream&lt;java.lang.String&gt; lines(java.io.BufferedReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.File getDirectory(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 T useLines(java.io.Reader, kotlin.Function1&lt;? super kotlin.Stream&lt;? extends java.lang.String&gt;,? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachLine$default(java.io.File, java.nio.charset.Charset, kotlin.Function1, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer(java.io.OutputStream, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void writeBytes(java.io.File, byte[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.Iterator&lt;java.lang.String&gt; lineIterator(java.io.BufferedReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void writeText(java.io.File, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getName(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.Reader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e long copyTo$default(java.io.InputStream, java.io.OutputStream, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 void recurse(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void recurse(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.io.BufferedReader buffered$default(java.io.Reader, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer$default(java.io.OutputStream, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.File, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.List readLines$default(java.io.File, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getExtension(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e byte[] readBytes(java.io.InputStream, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachLine$default(java.io.File, java.nio.charset.Charset, kotlin.Function1, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText$default(java.net.URL, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.net.URL, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Console.3d764294.stdin.1 int read(byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getExtension(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachLine(java.io.File, java.lang.String, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void appendText(java.io.File, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText$default(java.io.File, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void appendText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674.listFiles.1 boolean accept(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.BufferedWriter buffered$default(java.io.Writer, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void appendText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText$default(java.io.File, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo(java.io.File, java.io.File, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes$default(java.io.InputStream, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.net.URL, java.nio.charset.Charset) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.CharsetDecoder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachLine(java.io.File, java.lang.String, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer$default(java.io.OutputStream, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void appendText(java.io.File, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.LinesStream LinesStream(java.io.BufferedReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getCanonicalPath(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes$default(java.io.InputStream, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.net.URL, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStream buffered(java.io.InputStream, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText$default(java.io.File, java.nio.charset.Charset, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.io.FileReader reader(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.CharsetEncoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.File, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getCanonicalPath(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.net.URL, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader$default(java.io.InputStream, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.BufferedOutputStream buffered(java.io.OutputStream, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.CharsetEncoder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getCanonicalPath(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader$default(java.io.InputStream, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.File, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.Iterator&lt;java.lang.String&gt; lineIterator(java.io.BufferedReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.io.BufferedWriter buffered(java.io.Writer, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachLine(java.io.File, java.lang.String, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.List readLines$default(java.io.File, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.Reader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.net.URL, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Console.3d764294 void println(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStream buffered(java.io.InputStream, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText$default(java.net.URL, java.nio.charset.Charset, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.File getDirectory(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void writeText(java.io.File, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.Iterator&lt;java.lang.String&gt; lineIterator(java.io.BufferedReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getExtension(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getName(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Console.3d764294.stdin.1 int read(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 long copyTo(java.io.File, java.io.File, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void appendText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.BufferedReader getStdin()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage T useLines(java.io.Reader, kotlin.Function1&lt;? super kotlin.Stream&lt;? extends java.lang.String&gt;,? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Console.3d764294 java.io.BufferedReader getStdin()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.net.URL, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText$default(java.net.URL, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage boolean isDescendant(java.io.File, java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo$default(java.io.Reader, java.io.Writer, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.net.URL, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void writeText(java.io.File, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e long copyTo(java.io.InputStream, java.io.OutputStream, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.net.URL, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.io.File[] listFiles(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes(java.io.InputStream, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo$default(java.io.Reader, java.io.Writer, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader(java.io.InputStream, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage boolean isDescendant(java.io.File, java.io.File) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.net.URL, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getName(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader(java.io.InputStream, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.File, java.nio.charset.Charset) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachLine(java.io.File, java.lang.String, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e long copyTo(java.io.InputStream, java.io.OutputStream, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer(java.io.OutputStream, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.CharsetEncoder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.io.File[] listFiles(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 byte[] readBytes(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.LinesStream java.util.Iterator&lt;java.lang.String&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader$default(java.io.InputStream, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 byte[] readBytes(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.BufferedOutputStream buffered(java.io.OutputStream, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void writeText(java.io.File, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void print(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader$default(java.io.InputStream, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.CharsetEncoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.LinesStream java.io.BufferedReader getReader$b$0(kotlin.io.LinesStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.FileReader reader(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void appendText(java.io.File, java.lang.String, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.File, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.File, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.File, java.nio.charset.Charset) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachLine(java.io.File, java.nio.charset.Charset, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e byte[] readBytes$default(java.io.InputStream, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader(java.io.InputStream, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getPath(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getPath(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer$default(java.io.OutputStream, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.BufferedWriter buffered(java.io.Writer, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void writeText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage R use(T, kotlin.Function1&lt;? super T,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachBlock(java.io.File, kotlin.Function2&lt;? super byte[],? super java.lang.Integer,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.Iterator&lt;java.lang.String&gt; lineIterator(java.io.BufferedReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes(java.io.InputStream, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String relativePath(java.io.File, java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void writeText(java.io.File, java.lang.String, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.net.URL, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.BufferedOutputStream buffered$default(java.io.OutputStream, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String relativePath(java.io.File, java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String relativePath(java.io.File, java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void writeText(java.io.File, java.lang.String, java.nio.charset.Charset) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer(java.io.OutputStream, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo(java.io.InputStream, java.io.OutputStream, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo(java.io.Reader, java.io.Writer, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void println(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void writeBytes(java.io.File, byte[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void appendText(java.io.File, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void writeText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String relativePath(java.io.File, java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader(java.io.InputStream, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo$default(java.io.InputStream, java.io.OutputStream, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 long copyTo$default(java.io.Reader, java.io.Writer, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.CharsetDecoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage kotlin.ByteIterator iterator(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.BufferedReader buffered(java.io.Reader, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText$default(java.net.URL, java.nio.charset.Charset, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.net.URL, java.nio.charset.Charset) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getPath(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.Reader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void writeText(java.io.File, java.lang.String, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer(java.io.OutputStream, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String relativePath(java.io.File, java.io.File) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo(java.io.InputStream, java.io.OutputStream, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo(java.io.Reader, java.io.Writer, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void appendText(java.io.File, java.lang.String, java.nio.charset.Charset) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String relativePath(java.io.File, java.io.File) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.List readLines$default(java.io.File, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.File, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText$default(java.net.URL, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo$default(java.io.InputStream, java.io.OutputStream, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void appendText(java.io.File, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 long copyTo$default(java.io.Reader, java.io.Writer, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachLine(java.io.File, java.nio.charset.Charset, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.File, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 long copyTo$default(java.io.File, java.io.File, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage long copyTo$default(java.io.File, java.io.File, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText$default(java.net.URL, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachLine(java.io.Reader, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.lang.String readText(java.io.File, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachBlock(java.io.File, kotlin.Function2&lt;? super byte[],? super java.lang.Integer,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.LinesStream java.io.BufferedReader getReader$b$0(kotlin.io.LinesStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.io.BufferedWriter buffered$default(java.io.Writer, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 long copyTo(java.io.Reader, java.io.Writer, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStream buffered$default(java.io.InputStream, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.io.File getDirectory(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 byte[] readBytes(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getCanonicalPath(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void appendBytes(java.io.File, byte[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 java.lang.String getPath(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getExtension(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachLine$default(java.io.File, java.nio.charset.Charset, kotlin.Function1, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void writeText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.InputStream buffered$default(java.io.InputStream, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void writeText(java.io.File, java.lang.String, java.nio.charset.Charset) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 boolean isDescendant(java.io.File, java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 long copyTo(java.io.Reader, java.io.Writer, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e byte[] readBytes(java.io.InputStream, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void appendText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void appendText(java.io.File, java.lang.String, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void appendText(java.io.File, java.lang.String, java.nio.charset.Charset) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.List readLines$default(java.io.File, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String getName(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage byte[] readBytes(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachLine(java.io.File, java.nio.charset.Charset, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.File, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage kotlin.Stream&lt;java.lang.String&gt; lines(java.io.BufferedReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText$default(java.io.File, java.nio.charset.Charset, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void appendBytes(java.io.File, byte[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.io.BufferedReader buffered(java.io.Reader, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.File[] listFiles(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.util.List&lt;java.lang.String&gt; readLines(java.io.File, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.OutputStreamWriter writer$default(java.io.OutputStream, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.BufferedOutputStream buffered$default(java.io.OutputStream, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.BufferedReader buffered$default(java.io.Reader, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText$default(java.io.File, java.nio.charset.Charset, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachLine(java.io.File, java.nio.charset.Charset, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Files.67579674 boolean isDescendant(java.io.File, java.io.File) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText(java.io.File, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.CharsetDecoder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.InputStreamReader reader(java.io.InputStream, java.nio.charset.CharsetDecoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e kotlin.ByteIterator iterator(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.Console.3d764294 void print(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 kotlin.Stream&lt;java.lang.String&gt; lines(java.io.BufferedReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.lang.String readText$default(java.io.File, java.nio.charset.Charset, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e java.io.OutputStreamWriter writer(java.io.OutputStream, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage java.io.File[] listFiles(java.io.File, kotlin.Function1&lt;? super java.io.File,? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.IOStreams.dd07ee1e byte[] readBytes$default(java.io.InputStream, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 R use(T, kotlin.Function1&lt;? super T,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void forEachLine(java.io.Reader, kotlin.Function1&lt;? super java.lang.String,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 kotlin.Stream&lt;java.lang.String&gt; lines(java.io.BufferedReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage.ReadWrite.ce9fadc2 void forEachLine$default(java.io.File, java.nio.charset.Charset, kotlin.Function1, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.io.IoPackage void writeText$default(java.io.File, java.lang.String, java.nio.charset.Charset, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

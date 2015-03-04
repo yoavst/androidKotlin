@@ -1,0 +1,236 @@
+<root>
+    <item name='kotlin.jvm.internal.ArrayBooleanIterator ArrayBooleanIterator(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterator.1a6c7af2 java.util.Iterator&lt;T&gt; iterator(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.DoubleIterator iterator(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.FloatIterator iterator(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ExtensionFunctionImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage $kotlinPackage'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind LOCAL_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind TRAIT_IMPL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.DoubleIterator iterator(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind LOCAL_FUNCTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.IntIterator iterator(int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.CharIterator iterator(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FunctionImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayFloatIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.LongIterator iterator(long[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterator.1a6c7af2 java.util.Iterator&lt;T&gt; iterator(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIterator T[] getArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.LongIterator iterator(long[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.IntIterator iterator(int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayDoubleIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIntIterator ArrayIntIterator(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.FloatIterator iterator(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.FloatIterator iterator(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CollectionToArray T[] toArray(java.util.Collection&lt;E&gt;, T[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.BooleanIterator iterator(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.CharIterator iterator(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayCharIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkExpressionValueIsNotNull(java.lang.Object, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIterator ArrayIterator(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.DoubleIterator iterator(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.BooleanIterator iterator(boolean[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.BooleanIterator iterator(boolean[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind ANONYMOUS_FUNCTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayByteIterator ArrayByteIterator(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkReturnedValueIsNotNull(java.lang.Object, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics kotlin.IntRange arrayIndices(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkFieldIsNotNull(java.lang.Object, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.BooleanIterator iterator(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.DoubleIterator iterator(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIntIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.FloatIterator iterator(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayLongIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CollectionToArray T[] toArray(java.util.Collection&lt;E&gt;, T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics T sanitizeStackTrace(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind SAM_WRAPPER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayDoubleIterator ArrayDoubleIterator(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.ShortIterator iterator(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayShortIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.ByteIterator iterator(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind SAM_LAMBDA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.ShortIterator iterator(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FunctionImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CollectionToArray java.lang.Object[] toArray(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.ByteIterator iterator(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayShortIterator ArrayShortIterator(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage java.util.Iterator&lt;T&gt; iterator(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ExtensionFunctionImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind PACKAGE_PART'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.ByteIterator iterator(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind CALLABLE_REFERENCE_WRAPPER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayFloatIterator ArrayFloatIterator(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayByteIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.LongIterator iterator(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.ShortIterator iterator(short[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.CharIterator iterator(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.CharIterator iterator(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.LongIterator iterator(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.ShortIterator iterator(short[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayBooleanIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics T sanitizeStackTrace(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayCharIterator ArrayCharIterator(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.IntIterator iterator(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIterator $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage.ArrayIterators.33415b49 kotlin.ByteIterator iterator(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayLongIterator ArrayLongIterator(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage java.util.Iterator&lt;T&gt; iterator(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.InternalPackage kotlin.IntIterator iterator(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.KotlinSyntheticClass.Kind ANONYMOUS_OBJECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

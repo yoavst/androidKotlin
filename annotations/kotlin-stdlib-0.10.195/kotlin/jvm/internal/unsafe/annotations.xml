@@ -1,0 +1,14 @@
+<root>
+    <item name='kotlin.jvm.internal.unsafe.UnsafePackage.monitor.05bb3cb7 void monitorExit(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.unsafe.UnsafePackage void monitorExit(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.unsafe.UnsafePackage.monitor.05bb3cb7 void monitorEnter(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.unsafe.UnsafePackage void monitorEnter(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

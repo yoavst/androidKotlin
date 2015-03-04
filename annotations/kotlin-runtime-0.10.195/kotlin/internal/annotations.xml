@@ -1,0 +1,5 @@
+<root>
+    <item name='kotlin.internal.InternalPackage $kotlinPackage'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

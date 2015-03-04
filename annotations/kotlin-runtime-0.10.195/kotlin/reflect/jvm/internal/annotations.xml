@@ -1,0 +1,482 @@
+<root>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.pcollections.HashPMap&lt;java.lang.String,java.lang.Object&gt; getFOREIGN_K_CLASSES()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableForeignMemberProperty $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KTopLevelVariableImpl&lt;java.lang.Object&gt; topLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassOrigin BUILT_IN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl KTopLevelExtensionPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelVariableImpl java.lang.reflect.Method getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl java.lang.reflect.Method getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClassFromKotlin(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl&lt;java.lang.Object&gt; mutableTopLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl java.lang.reflect.Method getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.String getterName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelVariableImpl KTopLevelVariableImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.foreignKClasses.ae1eabb8 kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; foreignKotlinClass(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String getterName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.foreignKClasses.ae1eabb8 void setFOREIGN_K_CLASSES(kotlin.reflect.jvm.internal.pcollections.HashPMap&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelVariableImpl kotlin.reflect.jvm.internal.KPackageImpl getOwner()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberPropertyImpl R get(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String setterName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableVariableImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl KTopLevelExtensionPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String capitalizeWithJavaBeanConvention(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KVariableImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.String setterName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.String capitalizeWithJavaBeanConvention(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClass(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableForeignMemberProperty java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty R get(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KPackageImpl kPackage(java.lang.Class&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage $kotlinPackage'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KPackageImpl kPackage(java.lang.Class&lt;? extends java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.Class&lt;kotlin.jvm.internal.KotlinPackage&gt; getKOTLIN_PACKAGE_ANNOTATION_CLASS()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.KClassImpl.18e6631a java.lang.Class&lt;kotlin.jvm.internal.KotlinSyntheticClass&gt; getKOTLIN_SYNTHETIC_CLASS_ANNOTATION_CLASS()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberFunctionImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClass(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassOrigin FOREIGN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl java.lang.Class&lt;T&gt; getjClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl R get(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl KMutableTopLevelExtensionPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl KMutableTopLevelExtensionPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty java.lang.reflect.Field getField()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KPackageImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl java.lang.Class&lt;T&gt; getReceiverClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.Class&lt;T&gt; javaClassOf()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableForeignMemberProperty KMutableForeignMemberProperty(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl kotlin.reflect.jvm.internal.KPackageImpl getOwner()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KFunctionImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableMemberPropertyImpl KMutableMemberPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.String capitalizeWithJavaBeanConvention(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl&lt;java.lang.Object&gt; mutableTopLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KTopLevelVariableImpl&lt;java.lang.Object&gt; topLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberPropertyImpl java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutablePropertyImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClass(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.foreignKClasses.ae1eabb8 kotlin.reflect.jvm.internal.pcollections.HashPMap&lt;java.lang.String,java.lang.Object&gt; getFOREIGN_K_CLASSES()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberPropertyImpl KMemberPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl&lt;java.lang.Object&gt; mutableTopLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableForeignMemberProperty void set(T, R) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl kotlin.reflect.KMemberProperty&lt;T,java.lang.Object&gt; memberProperty(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableMemberPropertyImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.KTopLevelExtensionPropertyImpl.7ddb44ad java.lang.String mapJavaClassToKotlin(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KExtensionFunctionImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableForeignMemberProperty KMutableForeignMemberProperty(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage void setFOREIGN_K_CLASSES(kotlin.reflect.jvm.internal.pcollections.HashPMap&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; getOwner()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KPropertyImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableMemberPropertyImpl KMutableMemberPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableMemberPropertyImpl void set(T, R) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl kotlin.reflect.KMemberProperty&lt;T,java.lang.Object&gt; memberProperty(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty KForeignMemberProperty(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KTopLevelVariableImpl&lt;java.lang.Object&gt; topLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClassFromKotlin(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String getterName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KTopLevelVariableImpl&lt;java.lang.Object&gt; topLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl java.lang.reflect.Method getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl void set(T, R) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberPropertyImpl KMemberPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.KTopLevelExtensionPropertyImpl.7ddb44ad java.lang.String mapJavaClassToKotlin(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.KPackageImpl.03ceb1cc java.lang.Class&lt;kotlin.jvm.internal.KotlinPackage&gt; getKOTLIN_PACKAGE_ANNOTATION_CLASS()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String setterName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberPropertyImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassOrigin $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl&lt;java.lang.Object&gt; mutableTopLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClassFromKotlin(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KPackageImpl kPackage(java.lang.Class&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.String setterName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelVariableImpl java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableMemberPropertyImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KPackageImpl kPackage(java.lang.Class&lt;? extends java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.KClassImpl.18e6631a java.lang.Class&lt;kotlin.jvm.internal.KotlinClass&gt; getKOTLIN_CLASS_ANNOTATION_CLASS()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String capitalizeWithJavaBeanConvention(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl KMutableTopLevelExtensionPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassOrigin KOTLIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl kotlin.reflect.KMutableMemberProperty&lt;T,? extends java.lang.Object&gt; mutableMemberProperty(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl KTopLevelExtensionPropertyImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KPackageImpl java.lang.Class&lt;? extends java.lang.Object&gt; getjClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String mapJavaClassToKotlin(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.Class&lt;T&gt; javaClassOf()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; topLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberFunctionImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.String mapJavaClassToKotlin(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KCallableImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl KMutableTopLevelVariableImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClass(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KPackageImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelVariableImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KForeignMemberProperty KForeignMemberProperty(java.lang.String, kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KTopLevelVariableImpl&lt;java.lang.Object&gt; topLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.Class&lt;kotlin.jvm.internal.KotlinSyntheticClass&gt; getKOTLIN_SYNTHETIC_CLASS_ANNOTATION_CLASS()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelVariableImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl&lt;java.lang.Object&gt; mutableTopLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.util.da537aa5 java.lang.String getterName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KMutableTopLevelExtensionPropertyImpl&lt;T,java.lang.Object&gt; mutableTopLevelExtensionProperty(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl, java.lang.Class&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.Class&lt;kotlin.jvm.internal.KotlinClass&gt; getKOTLIN_CLASS_ANNOTATION_CLASS()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberPropertyImpl kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; getOwner()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl KClassImpl(java.lang.Class&lt;T&gt;, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KClassImpl kotlin.reflect.KMutableMemberProperty&lt;T,? extends java.lang.Object&gt; mutableMemberProperty(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; kClassFromKotlin(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KTopLevelVariableImpl KTopLevelVariableImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMemberPropertyImpl $kotlinClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KPackageImpl KPackageImpl(java.lang.Class&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage java.lang.reflect.Method getMaybeDeclaredMethod(java.lang.Class&lt;? extends java.lang.Object&gt;, java.lang.String, java.lang.Class&lt;? extends java.lang.Object&gt;...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl KMutableTopLevelVariableImpl(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KTopLevelVariableImpl&lt;java.lang.Object&gt; topLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage kotlin.reflect.jvm.internal.KClassImpl&lt;T&gt; foreignKotlinClass(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.reflect.jvm.internal.InternalPackage.factory.2e66dafd kotlin.reflect.jvm.internal.KMutableTopLevelVariableImpl&lt;java.lang.Object&gt; mutableTopLevelVariable(java.lang.String, kotlin.reflect.jvm.internal.KPackageImpl) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
