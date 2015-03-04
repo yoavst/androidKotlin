@@ -245,7 +245,6 @@ val sourceSansPro = typefaceFromAssets("fonts/source-sans-pro.ttf")
 #### Example: Get resources
 **Java**
 ```java
-String text = getResources().getString(R.string.text);
 int number = getResources().getInteger(R.integer.number);
 int dimenPixelSize = getResources().getDimensionPixelSize(R.dimen.size);
 int color = getResources().getColor(R.color.red);
@@ -256,7 +255,6 @@ Drawable drawable = getResources().getDrawable(R.drawable.background);
 
 **Kotlin**
 ```kotlin
-val text = stringRes(R.string.text)
 val number = intRes(R.integer.number)
 val dimenPixelSize = dimenRes(R.dimen.size)
 val color = colorRes(R.color.red)
