@@ -46,7 +46,7 @@ Intent intent = new Intent(this, SuperPowersActivity.class);
 
 **Kotlin**
 ```kotlin
-val intent = getIntent<SuperPowersActivity>()
+val intent = intent<SuperPowersActivity>()
 ```
 
 Api
