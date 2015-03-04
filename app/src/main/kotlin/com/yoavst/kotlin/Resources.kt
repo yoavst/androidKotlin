@@ -15,23 +15,23 @@ public fun Context.colorRes(colorResId: Int): Int {
     return resources().getColor(colorResId)
 }
 
-public fun Context.IntRes(intResId: Int): Int {
+public fun Context.intRes(intResId: Int): Int {
     return resources().getInteger(intResId)
 }
 
-public fun Context.DimenRes(dimenResId: Int): Int {
+public fun Context.dimenRes(dimenResId: Int): Int {
     return resources().getDimensionPixelSize(dimenResId)
 }
 
-public fun Context.StringArrayRes(arrayResId: Int): Array<String> {
+public fun Context.stringArrayRes(arrayResId: Int): Array<String> {
     return resources().getStringArray(arrayResId)
 }
 
-public fun Context.IntArrayRes(arrayResId: Int): IntArray {
+public fun Context.intArrayRes(arrayResId: Int): IntArray {
     return resources().getIntArray(arrayResId)
 }
 
-public fun Context.DrawableRes(drawableResId: Int): Drawable {
+public fun Context.drawableRes(drawableResId: Int): Drawable {
     return resources().getDrawable(drawableResId)
 }
 
@@ -43,27 +43,27 @@ public fun Context.typefaceFromAssets(assetPath: String): Typeface {
     return Typeface.createFromAsset(getAssets(), assetPath)
 }
 
-public fun Fragment.ColorRes(colorResId: Int): Int {
+public fun Fragment.colorRes(colorResId: Int): Int {
     return resources().getColor(colorResId)
 }
 
-public fun Fragment.IntRes(intResId: Int): Int {
+public fun Fragment.intRes(intResId: Int): Int {
     return resources().getInteger(intResId)
 }
 
-public fun Fragment.DimenRes(dimenResId: Int): Int {
+public fun Fragment.dimenRes(dimenResId: Int): Int {
     return resources().getDimensionPixelSize(dimenResId)
 }
 
-public fun Fragment.StringArrayRes(arrayResId: Int): Array<String> {
+public fun Fragment.stringArrayRes(arrayResId: Int): Array<String> {
     return resources().getStringArray(arrayResId)
 }
 
-public fun Fragment.IntArrayRes(arrayResId: Int): IntArray {
+public fun Fragment.intArrayRes(arrayResId: Int): IntArray {
     return resources().getIntArray(arrayResId)
 }
 
-public fun Fragment.DrawableRes(drawableResId: Int): Drawable {
+public fun Fragment.drawableRes(drawableResId: Int): Drawable {
     return resources().getDrawable(drawableResId)
 }
 
@@ -75,27 +75,27 @@ public fun Fragment.typefaceFromAssets(assetPath: String): Typeface {
     return Typeface.createFromAsset(getActivity().getAssets(), assetPath)
 }
 
-public fun SupportFragment.ColorRes(colorResId: Int): Int {
+public fun SupportFragment.colorRes(colorResId: Int): Int {
     return resources().getColor(colorResId)
 }
 
-public fun SupportFragment.IntRes(intResId: Int): Int {
+public fun SupportFragment.intRes(intResId: Int): Int {
     return resources().getInteger(intResId)
 }
 
-public fun SupportFragment.DimenRes(dimenResId: Int): Int {
+public fun SupportFragment.dimenRes(dimenResId: Int): Int {
     return resources().getDimensionPixelSize(dimenResId)
 }
 
-public fun SupportFragment.StringArrayRes(arrayResId: Int): Array<String> {
+public fun SupportFragment.stringArrayRes(arrayResId: Int): Array<String> {
     return resources().getStringArray(arrayResId)
 }
 
-public fun SupportFragment.IntArrayRes(arrayResId: Int): IntArray {
+public fun SupportFragment.intArrayRes(arrayResId: Int): IntArray {
     return resources().getIntArray(arrayResId)
 }
 
-public fun SupportFragment.DrawableRes(drawableResId: Int): Drawable {
+public fun SupportFragment.drawableRes(drawableResId: Int): Drawable {
     return resources().getDrawable(drawableResId)
 }
 
