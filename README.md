@@ -3,6 +3,24 @@ Android Kotlin Extensions
 A collection of Kotlin extensions for Android,
 based on [KotlinAndroidLib](https://github.com/vladlichonos/kotlinAndroidLib) and [Android Kotlin Extensions](https://github.com/ragunathjawahar/android-kotlin-extensions).
 
+## Include this library in your project
+**Step 1. Add the JitPack repository to your build file**
+```groovy
+repositories {
+	    maven {
+	        url "https://jitpack.io"
+	    }
+	}
+```
+**Step 2. Add the dependency in the form**
+```groovy
+dependencies {
+	        compile 'com.github.yoavst:androidKotlin:v1.0'
+	}
+```
+
+
+
 Activities & Services
 -------------------------
 #### Example: Start an Activity
