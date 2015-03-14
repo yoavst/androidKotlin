@@ -9,6 +9,9 @@ import android.graphics.Typeface
 import android.graphics.drawable.Drawable
 import android.app.Fragment
 import android.support.v4.app.Fragment as SupportFragment
+import android.util.TypedValue
+import android.app.Activity
+import android.util.DisplayMetrics
 
 
 public fun Context.colorRes(colorResId: Int): Int {
@@ -105,6 +108,21 @@ public fun SupportFragment.typefaceFromAssets(assetPathResId: Int): Typeface {
 
 public fun SupportFragment.typefaceFromAssets(assetPath: String): Typeface {
     return Typeface.createFromAsset(getActivity().getAssets(), assetPath)
+}
+
+public fun Int.toPx(context: Context): Int = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, this.toFloat(), context.getResources().getDisplayMetrics()).toInt()
+public fun Float.toPx(context: Context): Float = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, this, context.getResources().getDisplayMetrics())
+
+public fun Int.toDp(activity: Activity): Int {
+    val metrics = DisplayMetrics()
+    activity.getWindowManager().getDefaultDisplay().getMetrics(metrics)
+    return Math.ceil((this / metrics.density).toDouble()).toInt()
+}
+
+public fun Float.toDp(activity: Activity): Float {
+    val metrics = DisplayMetrics()
+    activity.getWindowManager().getDefaultDisplay().getMetrics(metrics)
+    return Math.ceil((this / metrics.density).toDouble()).toFloat()
 }
 
 /*

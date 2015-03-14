@@ -18,7 +18,7 @@ repositories {
 **Step 2. Add the dependency in the form**
 ```groovy
 dependencies {
-	        compile 'com.github.yoavst:androidKotlin:v1.0.1'
+	        compile 'com.github.yoavst:androidKotlin:1.0.2'
 	}
 ```
 
@@ -276,6 +276,13 @@ val color by colorResource(R.color.red)
 val intArray by intArrayResource(R.array.ids)
 val stringArray by stringArrayResource(R.array.options)
 val drawable by drawableResource(R.drawable.background)
+```
+
+### Example: DP and PX converter
+**Kotlin**
+```kotlin
+val px = 40.toPx(context)
+val dp = 180.toDp(activity)
 ```
 
 More...

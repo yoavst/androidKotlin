@@ -251,64 +251,64 @@ public fun Context.windowService(): WindowManager {
     return getSystemService(Context.WINDOW_SERVICE) as WindowManager
 }
 
-public class SystemService<K>(private val context: Context) : ReadOnlyProperty<Any?, K> {
+public class SystemService<K>(private val context: () -> Context) : ReadOnlyProperty<Any?, K> {
     private var value: K = null
     public override fun get(thisRef: Any?, desc: PropertyMetadata): K {
         if (value == null) {
             when(value) {
-                is AccessibilityManager -> context.accessibilityManager()
-                is AccountManager -> context.accountManager()
-                is ActivityManager -> context.activityManager()
-                is AlarmManager -> context.alarmManager()
-                is AppWidgetManager -> context.appWidgetManager()
-                is AudioManager -> context.audioManager()
-                is BatteryManager -> context.batteryManager()
-                is BluetoothAdapter -> context.bluetoothAdapter()
-                is CameraManager -> context.cameraManager()
-                is CaptioningManager -> context.captioningManager()
-                is ClipboardManager -> context.clipboardManager()
-                is ConsumerIrManager -> context.consumerIrManager()
-                is ConnectivityManager -> context.connectivityManager()
-                is DevicePolicyManager -> context.devicePolicyManager()
-                is DisplayManager -> context.displayManager()
-                is DropBoxManager -> context.dropBoxManager()
-                is InputMethodManager -> context.inputMethodManager()
-                is InputManager -> context.inputManager()
-                is JobScheduler -> context.jobScheduler()
-                is KeyguardManager -> context.keyguardManager()
-                is LocationManager -> context.locationManager()
-                is MediaProjectionManager -> context.mediaProjectionManager()
-                is MediaRouter -> context.mediaRouter()
-                is MediaSessionManager -> context.mediaSessionManager()
-                is NfcManager -> context.nfcManager()
-                is NsdManager -> context.nsdManager()
-                is PowerManager -> context.powerManager()
-                is PrintManager -> context.printManager()
-                is RestrictionsManager -> context.restrictionsManager()
-                is SearchManager -> context.searchManager()
-                is SensorManager -> context.sensorManager()
-                is StorageManager -> context.storageManager()
-                is TelecomManager -> context.telephonyManager()
-                is TelephonyManager -> context.telephonyManager()
-                is TextServicesManager -> context.textServicesManager()
-                is TvInputManager -> context.tvInputManager()
-                is UiModeManager -> context.uiModeManager()
-                is UsbManager -> context.usbManager()
-                is UserManager -> context.userManager()
-                is Vibrator -> context.vibrator()
-                is WallpaperService -> context.wallpaperService()
-                is WifiP2pManager -> context.wifiP2pManager()
-                is WifiManager -> context.wifiManager()
-                is WindowManager -> context.windowService()
+                is AccessibilityManager -> context().accessibilityManager()
+                is AccountManager -> context().accountManager()
+                is ActivityManager -> context().activityManager()
+                is AlarmManager -> context().alarmManager()
+                is AppWidgetManager -> context().appWidgetManager()
+                is AudioManager -> context().audioManager()
+                is BatteryManager -> context().batteryManager()
+                is BluetoothAdapter -> context().bluetoothAdapter()
+                is CameraManager -> context().cameraManager()
+                is CaptioningManager -> context().captioningManager()
+                is ClipboardManager -> context().clipboardManager()
+                is ConsumerIrManager -> context().consumerIrManager()
+                is ConnectivityManager -> context().connectivityManager()
+                is DevicePolicyManager -> context().devicePolicyManager()
+                is DisplayManager -> context().displayManager()
+                is DropBoxManager -> context().dropBoxManager()
+                is InputMethodManager -> context().inputMethodManager()
+                is InputManager -> context().inputManager()
+                is JobScheduler -> context().jobScheduler()
+                is KeyguardManager -> context().keyguardManager()
+                is LocationManager -> context().locationManager()
+                is MediaProjectionManager -> context().mediaProjectionManager()
+                is MediaRouter -> context().mediaRouter()
+                is MediaSessionManager -> context().mediaSessionManager()
+                is NfcManager -> context().nfcManager()
+                is NsdManager -> context().nsdManager()
+                is PowerManager -> context().powerManager()
+                is PrintManager -> context().printManager()
+                is RestrictionsManager -> context().restrictionsManager()
+                is SearchManager -> context().searchManager()
+                is SensorManager -> context().sensorManager()
+                is StorageManager -> context().storageManager()
+                is TelecomManager -> context().telephonyManager()
+                is TelephonyManager -> context().telephonyManager()
+                is TextServicesManager -> context().textServicesManager()
+                is TvInputManager -> context().tvInputManager()
+                is UiModeManager -> context().uiModeManager()
+                is UsbManager -> context().usbManager()
+                is UserManager -> context().userManager()
+                is Vibrator -> context().vibrator()
+                is WallpaperService -> context().wallpaperService()
+                is WifiP2pManager -> context().wifiP2pManager()
+                is WifiManager -> context().wifiManager()
+                is WindowManager -> context().windowService()
             }
         }
         return value
     }
 }
 
-public fun Context.systemService<k>(): SystemService<k> = SystemService(this)
-public fun Fragment.systemService<k>(): SystemService<k> = SystemService(getActivity())
-public fun SupportFragment.systemService<k>(): SystemService<k> = SystemService(getActivity())
+public fun Context.systemService<k>(): SystemService<k> = SystemService { this }
+public fun Fragment.systemService<k>(): SystemService<k> = SystemService { getActivity() }
+public fun SupportFragment.systemService<k>(): SystemService<k> = SystemService { getActivity() }
 
 /*
  * -----------------------------------------------------------------------------
