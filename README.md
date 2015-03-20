@@ -18,7 +18,7 @@ repositories {
 **Step 2. Add the dependency in the form**
 ```groovy
 dependencies {
-	        compile 'com.github.yoavst:androidKotlin:v1.0.4'
+	        compile 'com.github.yoavst:androidKotlin:1.0.5'
 	}
 ```
 
