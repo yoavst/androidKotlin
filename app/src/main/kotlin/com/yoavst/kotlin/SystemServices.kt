@@ -1,65 +1,53 @@
 package com.yoavst.kotlin
 
-import android.content.Context
-import android.app.AlarmManager
-import android.view.accessibility.AccessibilityManager
 import android.accounts.AccountManager
-import android.app.ActivityManager
-import android.appwidget.AppWidgetManager
-import android.app.AppOpsManager
-import android.media.AudioManager
-import android.os.BatteryManager
-import android.bluetooth.BluetoothAdapter
-import android.hardware.camera2.CameraManager
-import android.view.accessibility.CaptioningManager
-import android.content.ClipboardManager
-import android.net.ConnectivityManager
-import android.hardware.ConsumerIrManager
+import android.app.*
 import android.app.admin.DevicePolicyManager
-import android.hardware.display.DisplayManager
-import android.app.DownloadManager
-import android.os.DropBoxManager
-import android.view.inputmethod.InputMethodManager
-import android.hardware.input.InputManager
 import android.app.job.JobScheduler
-import android.app.KeyguardManager
-import android.content.pm.LauncherApps
-import android.view.LayoutInflater
-import android.location.LocationManager
-import android.media.projection.MediaProjectionManager
-import android.media.MediaRouter
-import android.media.session.MediaSessionManager
-import android.nfc.NfcManager
-import android.app.NotificationManager
-import android.net.nsd.NsdManager
-import android.os.PowerManager
-import android.print.PrintManager
+import android.appwidget.AppWidgetManager
+import android.bluetooth.BluetoothAdapter
+import android.content.ClipboardManager
+import android.content.Context
 import android.content.RestrictionsManager
-import android.app.SearchManager
+import android.content.pm.LauncherApps
+import android.hardware.ConsumerIrManager
 import android.hardware.SensorManager
+import android.hardware.camera2.CameraManager
+import android.hardware.display.DisplayManager
+import android.hardware.input.InputManager
+import android.hardware.usb.UsbManager
+import android.location.LocationManager
+import android.media.AudioManager
+import android.media.MediaRouter
+import android.media.projection.MediaProjectionManager
+import android.media.session.MediaSessionManager
+import android.media.tv.TvInputManager
+import android.net.ConnectivityManager
+import android.net.nsd.NsdManager
+import android.net.wifi.WifiManager
+import android.net.wifi.p2p.WifiP2pManager
+import android.nfc.NfcManager
+import android.os.*
 import android.os.storage.StorageManager
+import android.print.PrintManager
+import android.service.wallpaper.WallpaperService
 import android.telecom.TelecomManager
 import android.telephony.TelephonyManager
-import android.view.textservice.TextServicesManager
-import android.media.tv.TvInputManager
-import android.app.UiModeManager
-import android.hardware.usb.UsbManager
-import android.os.UserManager
-import android.os.Vibrator
-import android.service.wallpaper.WallpaperService
-import android.net.wifi.p2p.WifiP2pManager
-import android.net.wifi.WifiManager
+import android.view.LayoutInflater
 import android.view.WindowManager
+import android.view.accessibility.AccessibilityManager
+import android.view.accessibility.CaptioningManager
+import android.view.inputmethod.InputMethodManager
+import android.view.textservice.TextServicesManager
 import kotlin.properties.ReadOnlyProperty
-import android.app.Fragment
 import android.support.v4.app.Fragment as SupportFragment
 
 
-public fun Context.accessibilityManager(): AccessibilityManager? {
+public fun Context.accessibilityManager(): AccessibilityManager {
     return getSystemService(Context.ACCESSIBILITY_SERVICE) as AccessibilityManager
 }
 
-public fun Context.accountManager(): AccountManager? {
+public fun Context.accountManager(): AccountManager {
     return getSystemService(Context.ACCOUNT_SERVICE) as AccountManager
 }
 
@@ -71,7 +59,7 @@ public fun Context.alarmManager(): AlarmManager {
     return getSystemService(Context.ALARM_SERVICE) as AlarmManager
 }
 
-public fun Context.appWidgetManager(): AppWidgetManager? {
+public fun Context.appWidgetManager(): AppWidgetManager {
     return getSystemService(Context.APPWIDGET_SERVICE) as AppWidgetManager
 }
 
@@ -83,7 +71,7 @@ public fun Context.audioManager(): AudioManager {
     return getSystemService(Context.AUDIO_SERVICE) as AudioManager
 }
 
-public fun Context.batteryManager(): BatteryManager? {
+public fun Context.batteryManager(): BatteryManager {
     return getSystemService(Context.BATTERY_SERVICE) as BatteryManager
 }
 
@@ -251,65 +239,68 @@ public fun Context.windowService(): WindowManager {
     return getSystemService(Context.WINDOW_SERVICE) as WindowManager
 }
 
-public class SystemService<K>(private val context: () -> Context) : ReadOnlyProperty<Any?, K> {
+[suppress("IMPLICIT_CAST_TO_UNIT_OR_ANY")]
+public class SystemService<K>(private val clazz: Class<K>, private val context: () -> Context) : ReadOnlyProperty<Any?, K> {
     private var value: K = null
     public override fun get(thisRef: Any?, desc: PropertyMetadata): K {
         if (value == null) {
-            when(value) {
-                is AccessibilityManager -> context().accessibilityManager()
-                is AccountManager -> context().accountManager()
-                is ActivityManager -> context().activityManager()
-                is AlarmManager -> context().alarmManager()
-                is AppWidgetManager -> context().appWidgetManager()
-                is AudioManager -> context().audioManager()
-                is BatteryManager -> context().batteryManager()
-                is BluetoothAdapter -> context().bluetoothAdapter()
-                is CameraManager -> context().cameraManager()
-                is CaptioningManager -> context().captioningManager()
-                is ClipboardManager -> context().clipboardManager()
-                is ConsumerIrManager -> context().consumerIrManager()
-                is ConnectivityManager -> context().connectivityManager()
-                is DevicePolicyManager -> context().devicePolicyManager()
-                is DisplayManager -> context().displayManager()
-                is DropBoxManager -> context().dropBoxManager()
-                is InputMethodManager -> context().inputMethodManager()
-                is InputManager -> context().inputManager()
-                is JobScheduler -> context().jobScheduler()
-                is KeyguardManager -> context().keyguardManager()
-                is LocationManager -> context().locationManager()
-                is MediaProjectionManager -> context().mediaProjectionManager()
-                is MediaRouter -> context().mediaRouter()
-                is MediaSessionManager -> context().mediaSessionManager()
-                is NfcManager -> context().nfcManager()
-                is NsdManager -> context().nsdManager()
-                is PowerManager -> context().powerManager()
-                is PrintManager -> context().printManager()
-                is RestrictionsManager -> context().restrictionsManager()
-                is SearchManager -> context().searchManager()
-                is SensorManager -> context().sensorManager()
-                is StorageManager -> context().storageManager()
-                is TelecomManager -> context().telephonyManager()
-                is TelephonyManager -> context().telephonyManager()
-                is TextServicesManager -> context().textServicesManager()
-                is TvInputManager -> context().tvInputManager()
-                is UiModeManager -> context().uiModeManager()
-                is UsbManager -> context().usbManager()
-                is UserManager -> context().userManager()
-                is Vibrator -> context().vibrator()
-                is WallpaperService -> context().wallpaperService()
-                is WifiP2pManager -> context().wifiP2pManager()
-                is WifiManager -> context().wifiManager()
-                is WindowManager -> context().windowService()
-            }
+            value = when {
+                clazz.isAssignableFrom(javaClass<AccessibilityManager>()) -> context().accessibilityManager()
+                clazz.isAssignableFrom(javaClass<AccountManager>()) -> context().accountManager()
+                clazz.isAssignableFrom(javaClass<ActivityManager>()) -> context().activityManager()
+                clazz.isAssignableFrom(javaClass<AlarmManager>()) -> context().alarmManager()
+                clazz.isAssignableFrom(javaClass<AppWidgetManager>()) -> context().appWidgetManager()
+                clazz.isAssignableFrom(javaClass<AudioManager>()) -> context().audioManager()
+                clazz.isAssignableFrom(javaClass<BatteryManager>()) -> context().batteryManager()
+                clazz.isAssignableFrom(javaClass<BluetoothAdapter>()) -> context().bluetoothAdapter()
+                clazz.isAssignableFrom(javaClass<CameraManager>()) -> context().cameraManager()
+                clazz.isAssignableFrom(javaClass<CaptioningManager>()) -> context().captioningManager()
+                clazz.isAssignableFrom(javaClass<ClipboardManager>()) -> context().clipboardManager()
+                clazz.isAssignableFrom(javaClass<ConsumerIrManager>()) -> context().consumerIrManager()
+                clazz.isAssignableFrom(javaClass<ConnectivityManager>()) -> context().connectivityManager()
+                clazz.isAssignableFrom(javaClass<DevicePolicyManager>()) -> context().devicePolicyManager()
+                clazz.isAssignableFrom(javaClass<DisplayManager>()) -> context().displayManager()
+                clazz.isAssignableFrom(javaClass<DropBoxManager>()) -> context().dropBoxManager()
+                clazz.isAssignableFrom(javaClass<InputMethodManager>()) -> context().inputMethodManager()
+                clazz.isAssignableFrom(javaClass<InputManager>()) -> context().inputManager()
+                clazz.isAssignableFrom(javaClass<JobScheduler>()) -> context().jobScheduler()
+                clazz.isAssignableFrom(javaClass<KeyguardManager>()) -> context().keyguardManager()
+                clazz.isAssignableFrom(javaClass<LocationManager>()) -> context().locationManager()
+                clazz.isAssignableFrom(javaClass<LayoutInflater>()) -> context().layoutInflater()
+                clazz.isAssignableFrom(javaClass<NotificationManager>()) -> context().notificationManager()
+                clazz.isAssignableFrom(javaClass<MediaProjectionManager>()) -> context().mediaProjectionManager()
+                clazz.isAssignableFrom(javaClass<MediaRouter>()) -> context().mediaRouter()
+                clazz.isAssignableFrom(javaClass<MediaSessionManager>()) -> context().mediaSessionManager()
+                clazz.isAssignableFrom(javaClass<NfcManager>()) -> context().nfcManager()
+                clazz.isAssignableFrom(javaClass<NsdManager>()) -> context().nsdManager()
+                clazz.isAssignableFrom(javaClass<PowerManager>()) -> context().powerManager()
+                clazz.isAssignableFrom(javaClass<PrintManager>()) -> context().printManager()
+                clazz.isAssignableFrom(javaClass<RestrictionsManager>()) -> context().restrictionsManager()
+                clazz.isAssignableFrom(javaClass<SearchManager>()) -> context().searchManager()
+                clazz.isAssignableFrom(javaClass<SensorManager>()) -> context().sensorManager()
+                clazz.isAssignableFrom(javaClass<StorageManager>()) -> context().storageManager()
+                clazz.isAssignableFrom(javaClass<TelecomManager>()) -> context().telecomManager()
+                clazz.isAssignableFrom(javaClass<TelephonyManager>()) -> context().telephonyManager()
+                clazz.isAssignableFrom(javaClass<TextServicesManager>()) -> context().textServicesManager()
+                clazz.isAssignableFrom(javaClass<TvInputManager>()) -> context().tvInputManager()
+                clazz.isAssignableFrom(javaClass<UiModeManager>()) -> context().uiModeManager()
+                clazz.isAssignableFrom(javaClass<UsbManager>()) -> context().usbManager()
+                clazz.isAssignableFrom(javaClass<UserManager>()) -> context().userManager()
+                clazz.isAssignableFrom(javaClass<Vibrator>()) -> context().vibrator()
+                clazz.isAssignableFrom(javaClass<WallpaperService>()) -> context().wallpaperService()
+                clazz.isAssignableFrom(javaClass<WifiP2pManager>()) -> context().wifiP2pManager()
+                clazz.isAssignableFrom(javaClass<WifiManager>()) -> context().wifiManager()
+                clazz.isAssignableFrom(javaClass<WindowManager>()) -> context().windowService()
+                else -> null
+            } as K
         }
         return value
     }
 }
 
-public fun Context.systemService<k>(): SystemService<k> = SystemService { this }
-public fun Fragment.systemService<k>(): SystemService<k> = SystemService { getActivity() }
-public fun SupportFragment.systemService<k>(): SystemService<k> = SystemService { getActivity() }
-
+public inline fun Context.systemService<reified k>(): SystemService<k> = SystemService(javaClass<k>()) { this }
+public inline fun Fragment.systemService<reified k>(): SystemService<k> = SystemService(javaClass<k>()) { getActivity() }
+public inline fun SupportFragment.systemService<reified k>(): SystemService<k> = SystemService(javaClass<k>()) { getActivity() }
 /*
  * -----------------------------------------------------------------------------
  *  Private methods

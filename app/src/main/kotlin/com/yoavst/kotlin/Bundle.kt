@@ -20,7 +20,7 @@ public inline fun Bundle(capacity: Int, body: Bundle.() -> Unit): Bundle {
     return bundle
 }
 
-public inline fun Bundle(b: Bundle?, body: Bundle.() -> Unit): Bundle {
+public inline fun Bundle(b: Bundle, body: Bundle.() -> Unit): Bundle {
     val bundle = Bundle(b)
     bundle.body()
     return bundle
