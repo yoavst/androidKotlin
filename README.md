@@ -1,5 +1,7 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-androidKotlin-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1634)
 
+**Depracated** - use [Anko](https://github.com/JetBrains/anko) by jetbrains
+
 Android Kotlin Extensions
 =========================
 A collection of Kotlin extensions for Android,
