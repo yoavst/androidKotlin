@@ -249,50 +249,96 @@ public class SystemService<K>(private val clazz: Class<K>, private val context: 
                 clazz.isAssignableFrom(javaClass<AccountManager>()) -> context().accountManager()
                 clazz.isAssignableFrom(javaClass<ActivityManager>()) -> context().activityManager()
                 clazz.isAssignableFrom(javaClass<AlarmManager>()) -> context().alarmManager()
-                clazz.isAssignableFrom(javaClass<AppWidgetManager>()) -> context().appWidgetManager()
                 clazz.isAssignableFrom(javaClass<AudioManager>()) -> context().audioManager()
-                clazz.isAssignableFrom(javaClass<BatteryManager>()) -> context().batteryManager()
-                clazz.isAssignableFrom(javaClass<BluetoothAdapter>()) -> context().bluetoothAdapter()
-                clazz.isAssignableFrom(javaClass<CameraManager>()) -> context().cameraManager()
-                clazz.isAssignableFrom(javaClass<CaptioningManager>()) -> context().captioningManager()
                 clazz.isAssignableFrom(javaClass<ClipboardManager>()) -> context().clipboardManager()
-                clazz.isAssignableFrom(javaClass<ConsumerIrManager>()) -> context().consumerIrManager()
                 clazz.isAssignableFrom(javaClass<ConnectivityManager>()) -> context().connectivityManager()
                 clazz.isAssignableFrom(javaClass<DevicePolicyManager>()) -> context().devicePolicyManager()
-                clazz.isAssignableFrom(javaClass<DisplayManager>()) -> context().displayManager()
                 clazz.isAssignableFrom(javaClass<DropBoxManager>()) -> context().dropBoxManager()
                 clazz.isAssignableFrom(javaClass<InputMethodManager>()) -> context().inputMethodManager()
-                clazz.isAssignableFrom(javaClass<InputManager>()) -> context().inputManager()
-                clazz.isAssignableFrom(javaClass<JobScheduler>()) -> context().jobScheduler()
                 clazz.isAssignableFrom(javaClass<KeyguardManager>()) -> context().keyguardManager()
                 clazz.isAssignableFrom(javaClass<LocationManager>()) -> context().locationManager()
                 clazz.isAssignableFrom(javaClass<LayoutInflater>()) -> context().layoutInflater()
                 clazz.isAssignableFrom(javaClass<NotificationManager>()) -> context().notificationManager()
-                clazz.isAssignableFrom(javaClass<MediaProjectionManager>()) -> context().mediaProjectionManager()
-                clazz.isAssignableFrom(javaClass<MediaRouter>()) -> context().mediaRouter()
-                clazz.isAssignableFrom(javaClass<MediaSessionManager>()) -> context().mediaSessionManager()
                 clazz.isAssignableFrom(javaClass<NfcManager>()) -> context().nfcManager()
-                clazz.isAssignableFrom(javaClass<NsdManager>()) -> context().nsdManager()
                 clazz.isAssignableFrom(javaClass<PowerManager>()) -> context().powerManager()
-                clazz.isAssignableFrom(javaClass<PrintManager>()) -> context().printManager()
-                clazz.isAssignableFrom(javaClass<RestrictionsManager>()) -> context().restrictionsManager()
                 clazz.isAssignableFrom(javaClass<SearchManager>()) -> context().searchManager()
                 clazz.isAssignableFrom(javaClass<SensorManager>()) -> context().sensorManager()
                 clazz.isAssignableFrom(javaClass<StorageManager>()) -> context().storageManager()
-                clazz.isAssignableFrom(javaClass<TelecomManager>()) -> context().telecomManager()
                 clazz.isAssignableFrom(javaClass<TelephonyManager>()) -> context().telephonyManager()
-                clazz.isAssignableFrom(javaClass<TextServicesManager>()) -> context().textServicesManager()
-                clazz.isAssignableFrom(javaClass<TvInputManager>()) -> context().tvInputManager()
                 clazz.isAssignableFrom(javaClass<UiModeManager>()) -> context().uiModeManager()
-                clazz.isAssignableFrom(javaClass<UsbManager>()) -> context().usbManager()
-                clazz.isAssignableFrom(javaClass<UserManager>()) -> context().userManager()
                 clazz.isAssignableFrom(javaClass<Vibrator>()) -> context().vibrator()
                 clazz.isAssignableFrom(javaClass<WallpaperService>()) -> context().wallpaperService()
-                clazz.isAssignableFrom(javaClass<WifiP2pManager>()) -> context().wifiP2pManager()
                 clazz.isAssignableFrom(javaClass<WifiManager>()) -> context().wifiManager()
                 clazz.isAssignableFrom(javaClass<WindowManager>()) -> context().windowService()
                 else -> null
             } as K
+            if (value == null) {
+                if (isOnVersionOrNewer(12)) {
+                    value = when {
+                        clazz.isAssignableFrom(javaClass<UsbManager>()) -> context().usbManager()
+                        else -> null
+                    } as K
+                    if (value == null) {
+                        if (isOnVersionOrNewer(14)) {
+                            value = when {
+                                clazz.isAssignableFrom(javaClass<TextServicesManager>()) -> context().textServicesManager()
+                                clazz.isAssignableFrom(javaClass<WifiP2pManager>()) -> context().wifiP2pManager()
+                                else -> null
+                            } as K
+                            if (value == null) {
+                                if (isOnVersionOrNewer(16)) {
+                                    value = when {
+                                        clazz.isAssignableFrom(javaClass<InputManager>()) -> context().inputManager()
+                                        clazz.isAssignableFrom(javaClass<MediaRouter>()) -> context().mediaRouter()
+                                        clazz.isAssignableFrom(javaClass<NsdManager>()) -> context().nsdManager()
+                                        else -> null
+                                    } as K
+                                    if (value == null) {
+                                        if (isOnVersionOrNewer(17)) {
+                                            value = when {
+                                                clazz.isAssignableFrom(javaClass<UserManager>()) -> context().userManager()
+                                                clazz.isAssignableFrom(javaClass<DisplayManager>()) -> context().displayManager()
+                                                else -> null
+                                            } as K
+                                            if (value == null) {
+                                                if (isOnVersionOrNewer(18)) {
+                                                    if (clazz.isAssignableFrom(javaClass<BluetoothAdapter>())) return context().bluetoothAdapter() as K
+                                                }
+                                                if (kitkatOrNewer()) {
+                                                    value = when {
+                                                        clazz.isAssignableFrom(javaClass<AppOpsManager>()) -> context().appOpsManager()
+                                                        clazz.isAssignableFrom(javaClass<CaptioningManager>()) -> context().captioningManager()
+                                                        clazz.isAssignableFrom(javaClass<ConsumerIrManager>()) -> context().consumerIrManager()
+                                                        clazz.isAssignableFrom(javaClass<PrintManager>()) -> context().printManager()
+
+                                                        else -> null
+                                                    } as K
+                                                    if (value == null) {
+                                                        if (lollipopOrNewer()) {
+                                                            value = when {
+                                                                clazz.isAssignableFrom(javaClass<AppWidgetManager>()) -> context().appWidgetManager()
+                                                                clazz.isAssignableFrom(javaClass<BatteryManager>()) -> context().batteryManager()
+                                                                clazz.isAssignableFrom(javaClass<CameraManager>()) -> context().cameraManager()
+                                                                clazz.isAssignableFrom(javaClass<JobScheduler>()) -> context().jobScheduler()
+                                                                clazz.isAssignableFrom(javaClass<MediaProjectionManager>()) -> context().mediaProjectionManager()
+                                                                clazz.isAssignableFrom(javaClass<MediaSessionManager>()) -> context().mediaSessionManager()
+                                                                clazz.isAssignableFrom(javaClass<RestrictionsManager>()) -> context().restrictionsManager()
+                                                                clazz.isAssignableFrom(javaClass<TelecomManager>()) -> context().telecomManager()
+                                                                clazz.isAssignableFrom(javaClass<TvInputManager>()) -> context().tvInputManager()
+                                                                else -> null
+                                                            } as K
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         return value
     }
