@@ -1,7 +1,5 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-androidKotlin-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1634)
 
-**Depracated** - use [Anko](https://github.com/JetBrains/anko) by jetbrains
-
 Android Kotlin Extensions
 =========================
 A collection of Kotlin extensions for Android,
@@ -20,7 +18,7 @@ repositories {
 **Step 2. Add the dependency in the form**
 ```groovy
 dependencies {
-	        compile 'com.github.yoavst:androidKotlin:1.0.7'
+	        compile 'com.github.yoavst:androidKotlin:1.0.8'
 	}
 ```
 
