@@ -24,6 +24,6 @@ android {
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    compile 'com.android.support:support-v4:22.0.0'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.200"
+    compile 'com.android.support:support-v4:22.2.0'
 }
