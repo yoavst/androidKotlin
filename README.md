@@ -40,7 +40,7 @@ startActivity(intent);
 **Kotlin**
 ```kotlin
 val flags = flags(Intent.FLAG_ACTIVITY_NEW_TASK, Intent.FLAG_ACTIVITY_CLEAR_TOP)
-startActivity<SuperPowersActivity>(flags)
+start<SuperPowersActivity>(flags)
 ```
 
 #### Example: Create an Intent

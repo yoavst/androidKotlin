@@ -9,7 +9,7 @@ import android.content.Context
 
 public class StringResourceDelegate(private val resources: () -> Resources, private val id: Int) : ReadOnlyProperty<Any?, String> {
     private var value: String? = null
-    public override fun get(thisRef: Any?, desc: PropertyMetadata): String {
+    public override fun get(thisRef: Any?, property: PropertyMetadata): String {
         if (value == null) {
             value = resources().getString(id)
         }
@@ -19,7 +19,7 @@ public class StringResourceDelegate(private val resources: () -> Resources, priv
 
 public class IntResourceDelegate(private val resources: () -> Resources, private val id: Int) : ReadOnlyProperty<Any?, Int> {
     private var value: Int? = null
-    public override fun get(thisRef: Any?, desc: PropertyMetadata): Int {
+    public override fun get(thisRef: Any?, property: PropertyMetadata): Int {
         if (value == null) {
             value = resources().getInteger(id)
         }
@@ -29,7 +29,7 @@ public class IntResourceDelegate(private val resources: () -> Resources, private
 
 public class ColorResourceDelegate(private val resources: () -> Resources, private val id: Int) : ReadOnlyProperty<Any?, Int> {
     private var value: Int? = null
-    public override fun get(thisRef: Any?, desc: PropertyMetadata): Int {
+    public override fun get(thisRef: Any?, property: PropertyMetadata): Int {
         if (value == null) {
             value = resources().getColor(id)
         }
@@ -39,7 +39,7 @@ public class ColorResourceDelegate(private val resources: () -> Resources, priva
 
 public class DimenResourceDelegate(private val resources: () -> Resources, private val id: Int) : ReadOnlyProperty<Any?, Int> {
     private var value: Int? = null
-    public override fun get(thisRef: Any?, desc: PropertyMetadata): Int {
+    public override fun get(thisRef: Any?, property: PropertyMetadata): Int {
         if (value == null) {
             value = resources().getDimensionPixelSize(id)
         }
@@ -49,7 +49,7 @@ public class DimenResourceDelegate(private val resources: () -> Resources, priva
 
 public class StringArrayResourceDelegate(private val resources: () -> Resources, private val id: Int) : ReadOnlyProperty<Any?, Array<String>> {
     private var value: Array<String>? = null
-    public override fun get(thisRef: Any?, desc: PropertyMetadata): Array<String> {
+    public override fun get(thisRef: Any?, property: PropertyMetadata): Array<String> {
         if (value == null) {
             value = resources().getStringArray(id)
         }
@@ -59,7 +59,7 @@ public class StringArrayResourceDelegate(private val resources: () -> Resources,
 
 public class IntArrayResourceDelegate(private val resources: () -> Resources, private val id: Int) : ReadOnlyProperty<Any?,IntArray> {
     private var value: IntArray? = null
-    public override fun get(thisRef: Any?, desc: PropertyMetadata): IntArray {
+    public override fun get(thisRef: Any?, property: PropertyMetadata): IntArray {
         if (value == null) {
             value = resources().getIntArray(id)
         }
@@ -69,7 +69,7 @@ public class IntArrayResourceDelegate(private val resources: () -> Resources, pr
 
 public class DrawableResourceDelegate(private val resources: () -> Resources, private val id: Int) : ReadOnlyProperty<Any?,Drawable> {
     private var value: Drawable? = null
-    public override fun get(thisRef: Any?, desc: PropertyMetadata): Drawable {
+    public override fun get(thisRef: Any?, property: PropertyMetadata): Drawable {
         if (value == null) {
             value = resources().getDrawable(id)
         }
@@ -77,41 +77,41 @@ public class DrawableResourceDelegate(private val resources: () -> Resources, pr
     }
 }
 
-public fun Context.stringResource(id: Int): StringResourceDelegate = StringResourceDelegate(futrueResources(), id)
-public fun Fragment.stringResource(id: Int): StringResourceDelegate = StringResourceDelegate(futrueResources(), id)
-public fun SupportFragment.stringResource(id: Int): StringResourceDelegate = StringResourceDelegate(futrueResources(), id)
+public fun Context.stringResource(id: Int): StringResourceDelegate = StringResourceDelegate(futureResources(), id)
+public fun Fragment.stringResource(id: Int): StringResourceDelegate = StringResourceDelegate(futureResources(), id)
+public fun SupportFragment.stringResource(id: Int): StringResourceDelegate = StringResourceDelegate(futureResources(), id)
 
-public fun Context.intResource(id: Int): IntResourceDelegate = IntResourceDelegate(futrueResources(), id)
-public fun Fragment.intResource(id: Int): IntResourceDelegate = IntResourceDelegate(futrueResources(), id)
-public fun SupportFragment.intResource(id: Int): IntResourceDelegate = IntResourceDelegate(futrueResources(), id)
+public fun Context.intResource(id: Int): IntResourceDelegate = IntResourceDelegate(futureResources(), id)
+public fun Fragment.intResource(id: Int): IntResourceDelegate = IntResourceDelegate(futureResources(), id)
+public fun SupportFragment.intResource(id: Int): IntResourceDelegate = IntResourceDelegate(futureResources(), id)
 
-public fun Context.colorResource(id: Int): ColorResourceDelegate = ColorResourceDelegate(futrueResources(), id)
-public fun Fragment.colorResource(id: Int): ColorResourceDelegate = ColorResourceDelegate(futrueResources(), id)
-public fun SupportFragment.colorResource(id: Int): ColorResourceDelegate = ColorResourceDelegate(futrueResources(), id)
+public fun Context.colorResource(id: Int): ColorResourceDelegate = ColorResourceDelegate(futureResources(), id)
+public fun Fragment.colorResource(id: Int): ColorResourceDelegate = ColorResourceDelegate(futureResources(), id)
+public fun SupportFragment.colorResource(id: Int): ColorResourceDelegate = ColorResourceDelegate(futureResources(), id)
 
-public fun Context.dimenResource(id: Int): DimenResourceDelegate = DimenResourceDelegate(futrueResources(), id)
-public fun Fragment.dimenResource(id: Int): DimenResourceDelegate = DimenResourceDelegate(futrueResources(), id)
-public fun SupportFragment.dimenResource(id: Int): DimenResourceDelegate = DimenResourceDelegate(futrueResources(), id)
+public fun Context.dimenResource(id: Int): DimenResourceDelegate = DimenResourceDelegate(futureResources(), id)
+public fun Fragment.dimenResource(id: Int): DimenResourceDelegate = DimenResourceDelegate(futureResources(), id)
+public fun SupportFragment.dimenResource(id: Int): DimenResourceDelegate = DimenResourceDelegate(futureResources(), id)
 
-public fun Context.stringArrayResource(id: Int): StringArrayResourceDelegate = StringArrayResourceDelegate(futrueResources(), id)
-public fun Fragment.stringArrayResource(id: Int): StringArrayResourceDelegate = StringArrayResourceDelegate(futrueResources(), id)
-public fun SupportFragment.stringArrayResource(id: Int): StringArrayResourceDelegate = StringArrayResourceDelegate(futrueResources(), id)
+public fun Context.stringArrayResource(id: Int): StringArrayResourceDelegate = StringArrayResourceDelegate(futureResources(), id)
+public fun Fragment.stringArrayResource(id: Int): StringArrayResourceDelegate = StringArrayResourceDelegate(futureResources(), id)
+public fun SupportFragment.stringArrayResource(id: Int): StringArrayResourceDelegate = StringArrayResourceDelegate(futureResources(), id)
 
-public fun Context.intArrayResource(id: Int): IntArrayResourceDelegate = IntArrayResourceDelegate(futrueResources(), id)
-public fun Fragment.intArrayResource(id: Int): IntArrayResourceDelegate = IntArrayResourceDelegate(futrueResources(), id)
-public fun SupportFragment.intArrayResource(id: Int): IntArrayResourceDelegate = IntArrayResourceDelegate(futrueResources(), id)
+public fun Context.intArrayResource(id: Int): IntArrayResourceDelegate = IntArrayResourceDelegate(futureResources(), id)
+public fun Fragment.intArrayResource(id: Int): IntArrayResourceDelegate = IntArrayResourceDelegate(futureResources(), id)
+public fun SupportFragment.intArrayResource(id: Int): IntArrayResourceDelegate = IntArrayResourceDelegate(futureResources(), id)
 
-public fun Context.drawableResource(id: Int): DrawableResourceDelegate = DrawableResourceDelegate(futrueResources(), id)
-public fun Fragment.drawableResource(id: Int): DrawableResourceDelegate = DrawableResourceDelegate(futrueResources(), id)
-public fun SupportFragment.drawableResource(id: Int): DrawableResourceDelegate = DrawableResourceDelegate(futrueResources(), id)
+public fun Context.drawableResource(id: Int): DrawableResourceDelegate = DrawableResourceDelegate(futureResources(), id)
+public fun Fragment.drawableResource(id: Int): DrawableResourceDelegate = DrawableResourceDelegate(futureResources(), id)
+public fun SupportFragment.drawableResource(id: Int): DrawableResourceDelegate = DrawableResourceDelegate(futureResources(), id)
 
 /*
  * -----------------------------------------------------------------------------
  *  Private methods
  * -----------------------------------------------------------------------------
  */
-private fun Context.futrueResources(): () -> Resources = { getResources() }
+private fun Context.futureResources(): () -> Resources = { resources }
 
-private fun Fragment.futrueResources(): () -> Resources = { getResources() }
+private fun Fragment.futureResources(): () -> Resources = { resources }
 
-private fun SupportFragment.futrueResources(): () -> Resources = { getResources() }
+private fun SupportFragment.futureResources(): () -> Resources = { resources }

@@ -27,35 +27,35 @@ public fun Context.longToast(message: String) {
 }
 
 public fun Fragment.toast(messageResId: Int) {
-    Toast.makeText(getActivity(), messageResId, Toast.LENGTH_SHORT).show()
+    Toast.makeText(activity, messageResId, Toast.LENGTH_SHORT).show()
 }
 
 public fun Fragment.longToast(messageResId: Int) {
-    Toast.makeText(getActivity(), messageResId, Toast.LENGTH_LONG).show()
+    Toast.makeText(activity, messageResId, Toast.LENGTH_LONG).show()
 }
 
 public fun Fragment.toast(message: String) {
-    Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show()
+    Toast.makeText(activity, message, Toast.LENGTH_SHORT).show()
 }
 
 public fun Fragment.longToast(message: String) {
-    Toast.makeText(getActivity(), message, Toast.LENGTH_LONG).show()
+    Toast.makeText(activity, message, Toast.LENGTH_LONG).show()
 }
 
 public fun SupportFragment.toast(messageResId: Int) {
-    Toast.makeText(getActivity(), messageResId, Toast.LENGTH_SHORT).show()
+    Toast.makeText(activity, messageResId, Toast.LENGTH_SHORT).show()
 }
 
 public fun SupportFragment.longToast(messageResId: Int) {
-    Toast.makeText(getActivity(), messageResId, Toast.LENGTH_LONG).show()
+    Toast.makeText(activity, messageResId, Toast.LENGTH_LONG).show()
 }
 
 public fun SupportFragment.toast(message: String) {
-    Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show()
+    Toast.makeText(activity, message, Toast.LENGTH_SHORT).show()
 }
 
 public fun SupportFragment.longToast(message: String) {
-    Toast.makeText(getActivity(), message, Toast.LENGTH_LONG).show()
+    Toast.makeText(activity, message, Toast.LENGTH_LONG).show()
 }
 
 

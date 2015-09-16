@@ -6,9 +6,10 @@ import android.preference.PreferenceManager
 import android.os.Build
 
 
-public fun Context.getDefaultSharedPreferences(): SharedPreferences {
-    return PreferenceManager.getDefaultSharedPreferences(this)
-}
+public val Context.defaultSharedPreferences: SharedPreferences
+    get() {
+        return PreferenceManager.getDefaultSharedPreferences(this)
+    }
 
 public fun SharedPreferences.clear() {
     apply(getEditor().clear())

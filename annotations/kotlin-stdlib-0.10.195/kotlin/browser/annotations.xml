@@ -1,8 +1,0 @@
-<root>
-    <item name='kotlin.browser.BrowserPackage.Properties.22872ec8 void setDocument(org.w3c.dom.Document) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.browser.BrowserPackage void setDocument(org.w3c.dom.Document) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>
